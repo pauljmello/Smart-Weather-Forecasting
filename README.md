@@ -1,10 +1,3 @@
-# Weather Prediction Model
-
-Weather forecasting is a traditionally difficult process. In recent decades progress has been made to create weather forecasting models on global scales capable of predicting the weather up to a week in advance. Recently advances in diffusion models have demonstrated superior weather forecasting capbiilities at a reduced computational costs to more traditional ML approaches. However, industrial models are primarily built using ML/DNN models on tabular data. These industrial models are difficult to train due to the immense computational costs as well as the immense training data that is necessary to create accurate predictions. This has resulted in weather forecasting to be consolodated to corporations with the resources to train these models. 
-
-In a recently paper published titled [Smart Weather Forecasting Using Machine Learning: A Case Study in Tennessee](https://arxiv.org/pdf/2008.10789.pdf), researchers propose a novel approach to these global models by instead selecting a few cities nearby a  target city and use their data to predict the weather of the target city. They demonstrate this approach to be realatively successful within reason. This approach puts weather forecasting models in the hands of researchers and individuals with access to less resources. Importantly, while this approach is relatively successful, the traditional large scale global models are still more accurate. As a result using both the results from a local model and the global model can be seen as a fine tuned improvement of local predictions.
-
-
 ## Table of Contents
 
 1. [Requirements ](#requirements)
