@@ -52,13 +52,13 @@ This notebook trains multiple regression methods which can be found in the "Mode
 
 Ultimately, I was able to recreate the results of the paper above and introduce various abstract methods capable of handling the tricky instances presented in tabular weather forecasting. I performed PCA to demonstrate and select the relevant components for faster models and better feature extraction. 
 
-![PCA on Features from Archive Data](/Images/ArchivePCA.jpg)
+![PCA on Features from Archive Data](/Images/ArchivePCA.png)
 
 We can see from the results below that two approaches inparticular proved incredibly powerful in developing weather forecasting models, random forrest regression, followed by DNNs. These approaches were the 1st and second best results accross the board with particularly good RMSE on random forrest regression. 
 
-![Weather Forecasting using Archive Data and Regression](/Images/Archive_Regression_RMSE.jpg)
+![Weather Forecasting using Archive Data and Regression](/Images/Archive_Regression_RMSE.png)
 
-![DNN Forecast Prediction from Archive Data](/Images/Predict_SJ_Temps_From_Archive_DNN.jpg)
+![DNN Forecast Prediction from Archive Data](/Images/Predict_SJ_Temps_From_Archive_DNN.png)
 
 I believe with improved hyperparameters, more features, and a various other changes to the notebook these scores may be significantly reduced. However, for the time being these demonstrate the feasibility and capabilities of weather forecasting and ML model predictions respectively. 
 
